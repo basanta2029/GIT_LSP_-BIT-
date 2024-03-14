@@ -24,6 +24,7 @@ T Refactoring code involves changing the functionality of the code without modif
 T A Java method returns void if it does not return a value.
 F An ArrayList in Java will not automatically change its size as needed.
 F Polymorphism works in Java because method calls are bound to their method definitions at compile time.
+
 Section 2: Multiple Choice, type answer below each question.  Each question is 1 pt.
 
 1.	Which of the following is also known as run-time binding or late binding?
