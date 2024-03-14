@@ -1,0 +1,176 @@
+Section 1: True/False.  Highlight or write your answer. Each question is 1 pt.
+1.	T The ability to hide the implementation details of an object is called encapsulation.
+2.	F Java code is a compiled language that creates bytecode, which is interpreted by the Java Virtual Machine (JVM) on any machine, not binary code for a specific architecture.
+3.	F Polymorphism works in Java because method calls are bound to their method definitions at runtime (late binding), not at compile time.
+4.	F Every object in Java implicitly derives from class Object; the explicit use of extends is not required.
+5.	F A class in Java may implement multiple interfaces.
+6.	T In Java, when an instance of a class, or object, is specified as a parameter to a method, a reference to the said object is passed to the method.
+7.	F When designing a class, conceptually, each class should be designed to have a single responsibility, not multiple goals.
+8.	F In Java, it is possible to have memory leaks due to improper handling of references, despite garbage collection.
+9.	F A Java class cannot extend from multiple classes; it can only extend from one class.
+10.	T Testing does not ensure that our programs will never have any bugs.
+11.	F According to principles of encapsulation, instance variables should typically be declared as private, not public.
+12.	F Google naming conventions recommend that a Java class should begin with an uppercase letter, and methods should begin with a lowercase letter.
+13.	T A subclass can add behavior that is not present in the superclass.
+14.	T If B is a subclass of A, then a B object may always be assigned to a variable of type A.
+15.	T If class A extends class B, class A is a subclass of B, and B is a superclass of A.
+16.	F A constructor can be invoked only once when an object is instantiated.
+17.	T A checked exception represents an error that a program has to handle.
+18.	F In Java, this keyword is used to refer to the current instance of the class, not other instances of the class within the same scope.
+19.	F Methods are said to be overridden if they are in different classes (subclass and superclass) and have the same name and signature.
+20.	F A method that overrides another must have the same name and signature.
+21.	F A static method cannot refer directly to instance variables of the class; it can only access static variables.
+22.	T Refactoring code involves changing the structure of the code without modifying its external behavior.
+23.	T A Java method returns void if it does not return a value.
+24.	F An Array List in Java will automatically change its size as needed.
+25.	F Polymorphism works in Java because method calls are bound to their method definitions at runtime, not at compile time.
+
+Section 2: Multiple Choice, type answer below each question.  Each question is 1 pt.
+
+1.	Which of the following is also known as run-time binding or late binding?
+ 	c) Dynamic binding
+ 	
+ 2.	Which principle suggests that each module should perform a single, well-defined task?
+ 	a) High Cohesion
+ 	
+ 3.	A good design should strive for: 
+ 	b) a tight cohesion and a loose coupling between modules
+ 	
+ 4.	Which of the following is true about composition in object-oriented programming? 
+ 	c) It is a way of creating complex objects by combining simpler ones
+ 	
+ 5.	In Java, when can the garbage collector collect the memory allocated to an object?
+ 	a) when it can prove that there is no reference to that object from any other object
+ 	
+ 6.	What is the purpose of the Single Responsibility Principle (SRP) in object-oriented design?
+ 	c) To ensure that each class has only one responsibility and reason to change
+ 	
+ 7.	What is an abstract class?
+ 	c) A class that has no direct instances, but whose descendants may have direct instances
+ 	
+ 8.	What is true about “has-a” and “is-a” relationships? (Choose two) 
+ 	a) instance variables can be used when creating a has-a relationship
+	b) inheritance represents an is-a relationship
+	
+9.	How does Arthur Riel's principle of "information hiding" contribute to better software design?
+	b)By encapsulating the implementation details of a module
+	
+10.	According to Arthur Riel's design principles, what should be the relationship between modules in a well-designed system?
+	b)Modules should be loosely coupled to each other
+	
+11.	Which principle suggests that each module should perform a single, well-defined task?
+	a) High Cohesion
+	
+12.	What principle suggests that subclasses should be substitutable for their base classes without affecting the correctness of the program?
+	 b) Liskov Substitution Principle
+	 
+13.	What is the primary purpose of inheritance in object-oriented programming according to Arthur Riel's principles?
+	b) To promote code reuse and minimize redundancy
+	
+14.	Given the following.  What is true?  
+
+public class Room { 
+public int roomNr; 
+private Date beginDtm; 
+private Date endDttm; 
+
+public void book(int roomNr, Date beginDttm, Date endDttm) { 
+    	    this.roomNr = roomNr;
+    	    this.beginDtm = beginDttm;
+    	    this.endDttm = endDttm; 
+} 
+  } 
+	c) the variable roomNr breaks encapsulation
+	
+15.	What can directly access and change the value of the variable roomNr?
+package com.mycompany; 
+
+public class Hotel { 
+    protected int roomNr = 100; 
+} 
+
+c)	any class in com.mycompany package 
+
+16.	What is the output of the following?
+public class Example {
+    public static void main(String[] args) {
+        String str1 = "hello";
+        String str2 = new String("hello");
+        System.out.println(str1 == str2);
+    }
+}
+	b) False
+17.	Which of the following statements is incorrect in Java?
+	d) private members of a class can only be accessed by members of that same class it was declared
+	
+18.	Which of the following allow us to define an IS-A relationship in Java? Circle all that apply.
+	a) interfaces
+	b) classes
+	
+19.	Which of these can be overloaded? (choose one or more answers)
+	a) methods
+	b) constructors
+
+20.	Given:
+public interface Jumper { public void jump(); }
+public class Animal { }
+public class Dog extends Animal { protected Tail tail; }
+public class Beagle extends Dog implements Jumper {
+public void jump() {};
+} 
+public class Cat implements Jumper { public void jump(); }
+
+Which of the following are true?
+b) Cat is-a Jumper
+c) Dog is-a Animal
+f) Beagle has-a Tail
+
+21.	Which of the following statements is true about checked exceptions in Java?
+	a) They must be caught or declared in the method signature using the “throws” clause
+	
+22.	What happens if an exception is thrown within a “try” block but is not caught by any “catch” block?
+	c) The “finally” block is executed
+
+23.	A team manager needs data about the changes that have taken place for AWS resources in his account during the past two weeks. Which AWS service can help get this data?
+	d) AWS Cloud Trail
+	
+24.	A company wants to establish a private, dedicated connection between AWS and its on-premises data center. Which AWS service is the right choice for this requirement?
+	c) AWS Direct Connect
+
+25.	Which of the following will help you control the incoming traffic to an Amazon EC2 instance?
+	b) Security Group
+
+26.	Which of the following statements is true about interfaces in Java?
+	b) A class can implement multiple interfaces
+	
+27.	A company is looking at real-time processing of streaming big data for their ad-tech platform. Which of the following AWS services is the right choice for this requirement?
+	c) Amazon Kinesis Data Streams
+	
+28.	An e-commerce application sends out messages to a downstream application whenever an order is created. The downstream application processes the messages and updates its own systems. Currently, the two applications directly communicate with each other. Which service will you use to decouple this architecture, without any communication loss between the two systems?
+	b) Amazon Simple Queue Service (SQS)
+	
+29.	Which of the following AWS services will help provision a logically isolated network for your AWS resources
+	a) Amazon Virtual Private Cloud (Amazon VPC)
+	
+30.	Which of the following are the security best practices suggested by AWS for Identity and Access Management (IAM)? (Select two)
+	c) Do not share security credentials between accounts, use IAM roles instead
+	d) When you create IAM policies, grant the least privileges required to perform a task
+	
+Section 3: Short essay questions.  Please limit your responses to a few sentences.
+
+
+Handling Invalid Web Addresses: If a client program gives a wrong web address, we should use a checked exception. This kind of error is expected and can be managed. Using a checked exception makes sure the client program deals with this error properly, like asking for a correct address or keeping a record of the error. By using a checked exception, the compiler forces the client program to either handle the exception using a try-catch block or declare it in the method signature using the throws clause.
+
+Write Once, Run Anywhere: This means that you can write a Java program once, and it will work on any device that has Java, no matter what kind of computer or operating system it is. This is because Java programs are turned into a special code called bytecode, which can be run on any device with Java.
+
+Abstract Classes vs. Interfaces:
+Abstract Classes: These are like incomplete templates for other classes. They can have some parts already filled out and leave other parts empty for the next classes to fill in. 
+They're used when different classes have some common features, and you want to avoid repeating code.
+
+Interfaces: These are like contracts that list methods a class must have, but they don't say how these methods should work. They help when you want different kinds of things to work together in a specific way, making your code more flexible.
+
+Appropriate to use: Use abstract classes when you have a group of related things with some common features. Use interfaces when you have different kinds of things that need to work together. This helps keep your code organized and easy to manage.
+
+
+
+ 
