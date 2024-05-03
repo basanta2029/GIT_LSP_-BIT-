@@ -97,16 +97,16 @@ d) To define the skeleton of an algorithm in the superclass but let subclasses o
 a) This pattern creates an object without exposing the creation logic to the client and refers to newly created objects using a common interface.
 
 16.In the Command design pattern, what is the purpose of the Command interface?
-b) To encapsulate a request as an object, thereby allowing for parameterization of 	clients with different requests.
+b) To encapsulate a request as an object, thereby allowing for parameterization of clients with different requests.
 
 17. What is the main advantage of the Strategy design pattern?
-c) It allows the definition of a family of algorithms, encapsulates each one, and 	makes them interchangeable.
+c) It allows the definition of a family of algorithms, encapsulates each one, and makes them interchangeable.
 
-18. This design pattern should be used to access the contents of a collection 	without exposing its internal representation, to support multiple traversals of a 	collection, and to provide a uniform interface for traversing different collections.
+18. This design pattern should be used to access the contents of a collection without exposing its internal representation, to support multiple traversals of a collection, and to provide a uniform interface for traversing different collections.
 c) Iterator
 
-19. Which design pattern should you use when you want to provide a simple 	interface to a 	complex subsystem?
-b) Façade
+19. Which design pattern should you use when you want to provide a simple interface to a complex subsystem?
+b) Facade
 
 20. What is the intent of the Adapter design pattern?
 b) To convert the interface of a class into another interface clients expect.
