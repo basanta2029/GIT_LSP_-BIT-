@@ -1,0 +1,113 @@
+Howard University
+College of Engineering and Architecture
+Department of Electrical Engineering & Computer Science
+
+Large Scale / Object-Oriented Programming
+Spring 2024
+
+Final Exam (100 pts.)
+May 2, 2024
+
+
+
+Name	:__basanta baral____________________________
+
+
+I declare that I have not collaborated with anyone on this examination
+
+
+X ______________basanta baral__________________________
+Type Your Name Here
+
+
+Instructions:
+•	Submit completed exam to your github repository.  Create packages:
+org.howard.edu.lsp.oopfinal.exam
+org.howard.edu.lsp.oopfinal.question1 
+org.howard.edu.lsp.oopfinal.question2
+org.howard.edu.lsp.oopfinal.question3
+
+Verify that the commit(s) completed successfully in your Git repository
+
+•	OPEN BOOK, OPEN NOTES.  THERE IS NO COLLABORATION ON THIS EXAM
+
+
+1.	F - When designing a class, each class should be designed to have multiple goals so that your overall design can have fewer classes.
+
+2.	F - Inheritance provides a mechanism by which changes to lower-level classes can be propagated to all super classes quickly.
+3.	F - Design patterns are reusable libraries that can immediately be used in your code.
+4.	F - Frameworks and design patterns are the same thing as far as designers are concerned.
+5.	T - Because of potential problems, developers must be aware of the effects of modifications in a superclass and in each of the subclasses that will inherit the modifications.
+6.	T - Factory patterns can be combined with other patterns.
+7.	F - Creational design patterns are all about Class and Object composition.
+8.	F - Structural design patterns are all about class instantiation.
+9.	T - Design patterns are a mechanism that enables the developer to reuse code in their implementations.
+10.	T - Behavioral design patterns are all about the Class's object communication.
+11.	F - Information hiding makes program maintenance software development more difficult because other developers are not privy to an object’s implementation details.
+12.	T - In Java, the signature of a method is completely specified by the name of the method and the parameters that must be passed to the method.
+13.	F - The relationship between two objects related by composition cannot be changed at runtime.
+14.	F - When iterating a Java HashSet, you are guaranteed to retrieve objects stored in the same order they were inserted.
+15.	T - Software designs are refactored to allow the creation of software that is easier to integrate.
+
+Section 2: Multiple Choice, answer each question. (20 pts., 1 pt. each)
+
+1.	Which of the following options leads to the portability and security of Java?
+a) Bytecode is executed by JVM
+
+2.	What is the role of mocking frameworks like Mockito in unit testing?
+b) They are used to create mock objects for unit tests.
+
+3.	What is the primary purpose of unit testing?
+c) To validate that individual units of code work as expected.
+
+4.	What is regression testing?
+b) Repeating previous tests to ensure existing functionality is not affected by changes.
+
+5.	The root interface of the Java Collection framework hierarchy is
+a) Collection
+
+6.	What interface in the Java Collections framework extends Map and represents a collection of key/value pairs where keys are ordered?
+c) TreeMap
+
+7.	What interface in the Java Collections framework represents a last-in, first-out (Last In First Out) collection of objects?
+d) Stack
+
+8.	Which of the following is true about design patterns? (Choose the best answer).
+d) All of the above.
+
+9.	You want all the clients using class A to use the same instance of class A when the class is instantiated, what should you do to achieve this goal?
+c) Apply the Singleton pattern to class A
+
+10.	You have a class that accepts and returns values in British Imperial units (feet, miles, etc.), but you need to use metric units. The design pattern that would best solve your problem is:
+a) Adapter
+
+11.	Which of the following describes the Facade pattern correctly?
+c) This pattern hides the complexities of the system and providers an interface to the client using which the client can access the system.
+
+12.	Which of the following are concerned with communication between objects?
+b) Behavioral Design Patterns
+
+13.	Which of the following is correct about Creational design patterns?
+b) These design patterns provide a way to create objects while hiding the creation logic, rather than instantiating objects directly using new operator.
+
+14.	What is the role of the Template Method in the Template Method design pattern?
+d) To define the skeleton of an algorithm in the superclass but let subclasses override specific steps of the algorithm without changing its structure.
+
+15.	Which of the following describes the Factory pattern correctly?
+a) This pattern creates an object without exposing the creation logic to the client and refers to newly created objects using a common interface.
+
+16.In the Command design pattern, what is the purpose of the Command interface?
+b) To encapsulate a request as an object, thereby allowing for parameterization of 	clients with different requests.
+
+17. What is the main advantage of the Strategy design pattern?
+c) It allows the definition of a family of algorithms, encapsulates each one, and 	makes them interchangeable.
+
+18. This design pattern should be used to access the contents of a collection 	without exposing its internal representation, to support multiple traversals of a 	collection, and to provide a uniform interface for traversing different collections.
+c) Iterator
+
+19. Which design pattern should you use when you want to provide a simple 	interface to a 	complex subsystem?
+b) Façade
+
+20. What is the intent of the Adapter design pattern?
+b) To convert the interface of a class into another interface clients expect.
+
